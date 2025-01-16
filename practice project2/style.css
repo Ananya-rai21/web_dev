@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+section {
+    scroll-margin: 50px;
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.container{
+     max-width: 1200px;
+     margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 20px 0;
+}
+header{
+    background-color: #270082;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+        .logo{
+            color: white;
+           font-weight: 600;
+            font-size: 40px;
+        }
+        nav ul{
+            display: flex;
+            gap: 20px;
+        }
+        nav ul i{
+            border-bottom: 2px solid transparent;
+            transition: 0.2s ease-in;
+        }
+        nav ul li:hover{
+              border-bottom: 2px solid white;
+              transition: 0.2s ease-in ;
+        }
+        .hero-section{
+            display: grid;
+            /* justify-content: center;
+            align-items: center; */
+            background-image: url(hero_image\ \(1\).png);
+            height: 100vh;
+            color: white;
+            place-items: center;
+            text-align: center;
+        }
+        .hero-section .container{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .hero-section h1{
+            font-size: 70px;
+            font-weight: 700;
+        }
+        .hero-section h3{
+            font-size: 40px;
+            font-weight: 400;
+        }
+        .music-section{
+            background-color: #281154;
+            padding-top: 50px;
+        }
+        .music-section .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            color: white;
+        }
+        .ipad-iphone-img{
+            margin-top: -400px;
+            position: relative;
+            top: 400px;
+        }
+        button{
+            padding: 10px 15px;
+            border: none;
+            transition: 0.2s ease-in-out;
+        }
+         button:hover{
+            transition: 0.2s ease-in-out;
+            opacity: 0.8;
+         }
+        .primary-button{
+            background-color: #dc0000;
+            color: white;
+            
+        }
+        .music-section .container h4{
+            place-items: center;
+            text-align: center;
+            
+        }
+      .about-music{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        gap: 50px;
+        margin-bottom:50px ;
+        padding-top: 500px;
+      }
+      .secondary-button{
+        background-color: #270082;
+        color: white;
+        
+      }
+      .video-section{
+        background-image: url(video.png);
+        min-height: 800px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        color: white;
+      }
+      .video-section .container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: -200px;
+      }
+           .hero-section,
+           .video-section{
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+           }
+           .gift-section{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 100px 0;
+            scroll-margin: 120px;
+           }
+           .gift-content{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+           }
+           .footer-upper{
+            background-color: #1b0058;
+            padding: 20px;
+           }
+           .footer-upper .container{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+           }
+           .footer-upper h4{
+            padding-bottom: 10px;
+            border-bottom: 2px solid white;
+            margin-bottom: 10px;
+           }
+           .footer-lower{
+            background-color: #270082;
+            display: flex;
+            justify-content: center;
+            color: white;
+            padding: 20px;
+           }
+
+           
